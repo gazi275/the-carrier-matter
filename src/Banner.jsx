@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div>
-           <h2> this is a banner</h2> 
+           <h2> this is a changed banner</h2> 
         </div>
     );
 };
