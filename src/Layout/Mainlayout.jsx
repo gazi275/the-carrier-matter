@@ -1,11 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Home from "../Home/Home";
 import Navbar from "../components/Navbar/Navbar";
 
 
 const Mainlayout = () => {
     return (
-        <div> 
+        <div className="max-w-7xl mx-auto" > 
             <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
