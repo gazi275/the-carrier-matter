@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="mt-10 ">
+        <div className=" ">
         <div className="bg-[#216AD7]  w-full h-[560px]  bg-[url('https://i.ibb.co/wd9RP4K/pattern-hero-2x.png')] [clip-path:polygon(0%_0%,100%_0%,100%_25%,0%_100%)] relative" >
             
         </div>
