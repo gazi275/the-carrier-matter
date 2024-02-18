@@ -1,26 +1,29 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
 
 
     const navitems =<>
+   
 
     
-<Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 " > Home </Link>
+<NavLink to='/' className="text-xl cursor-pointer  font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 " > Home </NavLink>
 <Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> About Us </Link>
-<Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Jobs </Link>
+
+<button  className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Jobs </button>
 
 <Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> News </Link>
 
 
+<Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 mr-2 "> SignUp </Link>
 
-<Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> SignUp </Link>
+<Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Log-in </Link>
     </>
 
 
     return (
-        <div className="navbar   max-w-6xl mx-auto">
+        <div className="navbar   max-w-6xl mx-auto  z-[999] ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,6 +38,8 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {navitems}
+        
+
            
           </ul>
 

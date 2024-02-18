@@ -2,11 +2,11 @@
 
 const Banner = () => {
     return (
-        <div className=" ">
+        <div className="relative ">
         <div className="bg-[#216AD7]  w-full h-[560px]  bg-[url('https://i.ibb.co/wd9RP4K/pattern-hero-2x.png')] [clip-path:polygon(0%_0%,100%_0%,100%_25%,0%_100%)] relative" >
             
         </div>
-        <div className="    flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-8 -top-7 lg:ml-44   absolute ">
+        <div className=" flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-8 -top-7 lg:ml-44   absolute ">
             <div className="">
                 <h2 className="lg:text-white my-7  lg:-mt-2   text-5xl lg:text-6xl font-bold">
                 FIND YOUR DREAM JOB WITH US
