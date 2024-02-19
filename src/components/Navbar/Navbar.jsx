@@ -5,25 +5,23 @@ const Navbar = () => {
 
 
     const navitems =<>
-   
 
     
-<NavLink to='/' className="text-xl cursor-pointer  font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 " > Home </NavLink>
-<Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> About Us </Link>
+<NavLink to={'/'} className="text-xl cursor-pointer font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 " > Home </NavLink>
+<NavLink to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> About Us </NavLink>
+<NavLink to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Jobs </NavLink>
 
-<button  className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Jobs </button>
-
-<Link to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> News </Link>
+<NavLink to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> News </NavLink>
 
 
 <Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 mr-2 "> SignUp </Link>
 
-<Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> Log-in </Link>
+<NavLink to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> SignUp </NavLink>
     </>
 
 
     return (
-        <div className="navbar   max-w-6xl mx-auto  z-[999] ">
+        <div className="navbar   max-w-[1440px] mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +31,7 @@ const Navbar = () => {
             {navitems}
             </ul>
           </div>
-          <Link to={'/'} className=" lg:text-2xl font-Unbounded font-bold  ">Carrer-Vista</Link>
+          <NavLink to={'/'} className=" lg:text-2xl font-Unbounded font-bold  ">Carrer-Vista</NavLink>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
