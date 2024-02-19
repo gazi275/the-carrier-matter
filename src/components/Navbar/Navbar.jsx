@@ -1,4 +1,8 @@
-import { NavLink } from "react-router-dom";
+
+
+
+
+
 
 
 const Navbar = () => {
@@ -14,6 +18,7 @@ const Navbar = () => {
 <NavLink to={'/'} className="text-xl font-Roboto mr-3 hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> News </NavLink>
 
 
+<Link to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 mr-2 "> SignUp </Link>
 
 <NavLink to={'/signup'} className="text-xl font-Roboto hover:text-blue-400 hover:border-b-2 border-b-blue-500 "> SignUp </NavLink>
     </>
@@ -35,6 +40,8 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             {navitems}
+        
+
            
           </ul>
 
