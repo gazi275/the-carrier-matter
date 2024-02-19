@@ -3,7 +3,7 @@ import { MdOutlineCardMembership } from "react-icons/md";
 import { PiCardholderFill } from "react-icons/pi";
 const Aboutus = () => {
   return (
-    <div className="mt-24 w-full lg:w-[1200px] mx-auto">
+    <div className="mt-24 w-full lg:w-[1200px] mx-auto py-10">
       <div className="grid  grid-cols-1  lg:grid-cols-3 gap-3">
         {/* Expert Agent div */}
         <div>
