@@ -50,7 +50,7 @@ const Aboutus = () => {
           <p className="font-Unbounded">
             {" "}
             A vast certified method has being applied in our every section of
-            this website{" "}
+            this Website{" "}
           </p>
         </div>
       </div>
