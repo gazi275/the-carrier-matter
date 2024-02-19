@@ -2,11 +2,11 @@
 
 const Banner = () => {
     return (
-        <div className="relative border-2 border-red-600 h-screen ">
-        <div className="bg-[#216AD7] absolute inset-0  w-full h-[560px]  bg-[url('https://i.ibb.co/wd9RP4K/pattern-hero-2x.png')] [clip-path:polygon(0%_0%,100%_0%,100%_25%,0%_100%)] " >
+        <div className=" ">
+        <div className="bg-[#216AD7]  w-full h-[560px]  bg-[url('https://i.ibb.co/wd9RP4K/pattern-hero-2x.png')] [clip-path:polygon(0%_0%,100%_0%,100%_25%,0%_100%)] relative" >
             
         </div>
-        <div className="    flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-8 -top-7 lg:ml-44   absolute ">
+        <div className=" flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center gap-8 -top-7 lg:ml-44   absolute ">
             <div className="">
                 <h2 className="lg:text-white my-7  lg:-mt-2   text-5xl lg:text-6xl font-bold">
                 FIND YOUR DREAM JOB WITH US
@@ -23,6 +23,8 @@ const Banner = () => {
                    <img className="h-8 w-40" src="https://i.ibb.co/mFZVPws/partner2-1-300x45.png"  />
                    <img className="h-10 w-40" src="https://i.ibb.co/5WwTsf6/partner3-1-300x63.png"  />
                 </div>
+       </div>
+       </div>
        </div>
     );
 };
