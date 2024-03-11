@@ -14,7 +14,7 @@ const Serve = () => {
         
         Our career-making website operates as a dynamic platform, seamlessly
         connecting talented individuals with diverse opportunities across
-        industries.
+        industries..
       </p>
     </div>
   );
