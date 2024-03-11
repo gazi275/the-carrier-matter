@@ -2,13 +2,13 @@
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="bg-black mt-4">
+        <div className="relative  lg:top-0   ">
+            <footer className="bg-black  lg:mt-0">
     <div className="container p-6 mx-auto ">
         <div className="lg:flex  justify-between ">
             <div className="w-full -mx-6 lg:w-2/4">
                 <div className="px-6">
-                    <h2 className="text-white text-5xl font-bold">
+                    <h2 className="text-white  text-5xl font-bold">
                         Kareer
                     </h2>
 
