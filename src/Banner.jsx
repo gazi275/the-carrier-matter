@@ -24,8 +24,7 @@ const Banner = () => {
                    <img className="h-10 w-40" src="https://i.ibb.co/5WwTsf6/partner3-1-300x63.png"  />
                 </div>
        </div>
-       </div>
-       </div>
+      
     );
 };
 

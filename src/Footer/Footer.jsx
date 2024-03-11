@@ -2,8 +2,8 @@
 
 const Footer = () => {
     return (
-        <div className="relative md:top-[300px] top-[400px]">
-            <footer className="bg-black mt-4">
+        <div className="relative  lg:top-0   ">
+            <footer className="bg-black  lg:mt-0">
     <div className="container p-6 mx-auto ">
         <div className="lg:flex  justify-between ">
             <div className="w-full -mx-6 lg:w-2/4">
